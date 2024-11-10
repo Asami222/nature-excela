@@ -1,0 +1,22 @@
+.headContainer {
+    position: relative;
+}
+
+.headContainer > :first-child {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.mainContainer {
+    max-width: 1440px;
+    margin: 0 auto;
+    background: var(--black);
+}
+
+@media (max-width: 768px) {
+    .headContainer > :first-child {
+        left: 0;
+    }
+
+}

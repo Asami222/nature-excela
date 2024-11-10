@@ -1,0 +1,59 @@
+.header {
+    padding: 25px clamp(1.25rem, 0.793rem + 1.95vw, 2.5rem);
+    border-radius: 5px;
+}
+
+.flexContainer {
+    composes: spaceBetween from 'styles/utils.module.css';
+}
+
+.flexContainerHeader {
+    justify-content: end;
+    gap: clamp(1.25rem, -7.864rem + 18.99vw, 8.75rem);
+}
+
+.bag {
+    display: grid;
+    place-items: center;
+}
+
+.img {
+    grid-area: 1/1;
+    z-index: 230;
+}
+
+.count {
+    width: 20px;
+    height: 20px;
+    padding: 3px 5px 7px;
+    border-radius: 100%;
+    background: red;
+    color: white;
+    font-size: 12px;
+    line-height: 1;
+    text-align: center;
+    grid-area: 1/1;
+    z-index: 250;
+    margin-top: 7px;
+}
+
+@media (max-width: 768px) {
+    .header {
+        padding: 12px 25px;
+    }
+
+    .flexContainerHeader {
+        justify-content: space-between;
+        gap: inherit;
+        z-index: 100;
+    }
+
+    .bag {
+        z-index: 200;
+        width: 48px;
+        height: 48px;
+        border-radius: 10px;
+        background-color: rgba(255, 255, 255, 0.8);
+    }
+
+}
