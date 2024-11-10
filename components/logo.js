@@ -10,7 +10,7 @@ export function HeaderLogoSimple() {
         <div className={styles.logoSimple}>
             <Link href="/">
                     <Image
-                        src="/logo/HeaderLogo.svg"
+                        src="/logo/headerLogo.svg"
                         alt="NATURE EXCELA"
                         layout="fixed"
                         width={55}
