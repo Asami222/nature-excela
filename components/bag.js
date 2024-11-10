@@ -7,7 +7,6 @@ export const Bag = ({product}) => {
     const { addCart, removeCart, deleteCart } = useCart();
     const price = (product.price).toLocaleString();
     const subTotal = (product.price * product.quantity).toLocaleString();
-    console.log(product)
 
     return (
         <div className={styles.wrapper}>

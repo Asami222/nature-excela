@@ -15,7 +15,7 @@ const Face = ({isMobile = false}) => (
         layout='fill'
         objectFit='cover'
         placeholder='blur'
-        quality={75}
+        priority
     />
     :
     <Image
@@ -24,6 +24,7 @@ const Face = ({isMobile = false}) => (
         layout='responsive'
         sizes='(min-width: 1440px) 500px, 35vw'
         placeholder='blur'
+        priority
     />    
 );
 
