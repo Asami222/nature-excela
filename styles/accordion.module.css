@@ -60,6 +60,7 @@
 .arrow {
     width: clamp(0.625rem, 0.515rem + 0.47vw, 0.938rem);
     transition: transform 0.5s;
+    align-self: flex-start;
 }
 
 .open .arrow {
