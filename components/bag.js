@@ -3,7 +3,7 @@ import Image from 'next/image'
 import styles from 'styles/bag.module.css'
 
 export const Bag = ({product}) => {
-
+    console.log(product)
     const { addCart, removeCart, deleteCart } = useCart();
     const price = (product.price).toLocaleString();
     const subTotal = (product.price * product.quantity).toLocaleString();

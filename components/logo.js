@@ -11,7 +11,7 @@ export function HeaderLogoSimple() {
             <Link href="/">
                     <Image
                         src="/logo/headerLogo.svg"
-                        alt="NATURE EXCELA"
+                        alt="Nature Excela"
                         layout="fixed"
                         width={55}
                         height={29}
@@ -33,7 +33,7 @@ export function FooterLogo({isHome = false}) {
                     ( isMobile ?
                         <Image
                             src="/home/LogoHomeM.svg"
-                            alt="NATURE EXCELA"
+                            alt="Nature Excela"
                             layout="responsive"
                             width={250}
                             height={41}
@@ -42,7 +42,7 @@ export function FooterLogo({isHome = false}) {
                         :
                         <Image
                         src="/home/LogoFooter.svg"
-                        alt="NATURE EXCELA"
+                        alt="Nature Excela"
                         layout="responsive"
                         width={347}
                         height={50}
@@ -52,7 +52,7 @@ export function FooterLogo({isHome = false}) {
                     :
                     <Image
                         src="/home/LogoFooter.svg"
-                        alt="NATURE EXCELA"
+                        alt="Nature Excela"
                         layout="responsive"
                         width={347}
                         height={50}
